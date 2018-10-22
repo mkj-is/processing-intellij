@@ -23,7 +23,8 @@ public class MenuWindow extends PApplet {
   }
 
   public void draw() {
-//    background( 0 );
+    textAlign( CENTER, CENTER );
+    text( "⇧ Only arrow keys for now ⇩", width / 2f, height / 2f );
   }
 
   @Override

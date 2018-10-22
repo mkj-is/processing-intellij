@@ -36,7 +36,7 @@ class MenuItem {
     p.noStroke();
     p.fill( isSelected() ? 100 : 0 );
     p.rect( 0, ( index ) * textSize + 5, p.width - 5, textSize );
-
+    p.textAlign( p.LEFT, p.BASELINE );
     p.fill( 255 );
     p.text( name, 20, ( index + 1 ) * textSize );
   }
