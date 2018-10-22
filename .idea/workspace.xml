@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e752a8c-6cb9-4ef9-9031-0329ce15fcb4" name="Default" comment="SketchObject template added; Example (walker) sketch added;">
+    <list default="true" id="6e752a8c-6cb9-4ef9-9031-0329ce15fcb4" name="Default" comment="workspace update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/MenuItem.java" afterDir="false" />
     </list>
     <ignored path="processing-intellij.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,24 +36,24 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="java" value="801" />
-          <entry key="txt" value="143" />
+          <entry key="txt" value="168" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="801" />
-          <entry key="PLAIN_TEXT" value="151" />
+          <entry key="PLAIN_TEXT" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="java" value="16" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="16" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -78,50 +77,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/Example.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#133#134#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="method#draw#0;class#Example#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/example/Walker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-              <folding>
-                <element signature="method#Walker#0;class#Walker#0" expanded="true" />
-                <element signature="method#step#0;class#Walker#0" expanded="true" />
-                <element signature="method#show#0;class#Walker#0" expanded="true" />
-                <element signature="method#reset#0;class#Walker#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/menu/MenuItem.java">
+        <entry file="file://$PROJECT_DIR$/src/menu/MenuWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="414">
+              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
               <folding>
-                <element signature="method#MenuItem#0;class#MenuItem#0" expanded="true" />
-                <element signature="e#384#419#1" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="method#show#0;class#MenuItem#0" expanded="true" />
+                <element signature="method#setup#0;class#MenuWindow#0" expanded="true" />
+                <element signature="method#keyPressed#0;class#MenuWindow#0" expanded="true" />
+                <element signature="method#keyReleased#0;class#MenuWindow#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/menu/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Menu#0;class#Menu#0" expanded="true" />
+                <element signature="method#show#0;class#Menu#0" expanded="true" />
+                <element signature="method#handleKey#0;class#Menu#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +132,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/ExampleApplet.java" />
         <option value="$PROJECT_DIR$/src/menu/Test.java" />
-        <option value="$PROJECT_DIR$/src/menu/Menu.java" />
         <option value="$PROJECT_DIR$/src/menu/MenuWindow.java" />
         <option value="$PROJECT_DIR$/src/menu/example/Example.java" />
         <option value="$PROJECT_DIR$/src/menu/example/Walker.java" />
@@ -161,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/example/Walker.java" />
         <option value="$PROJECT_DIR$/src/example/Example.java" />
         <option value="$PROJECT_DIR$/src/menu/MenuItem.java" />
+        <option value="$PROJECT_DIR$/src/menu/Menu.java" />
       </list>
     </option>
   </component>
@@ -206,7 +185,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540222954371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540223146187" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -293,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540222774103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="workspace update">
+      <created>1540223143793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540223143793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -353,7 +339,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Multi-sketch template with sketch template and menu - initial commit" />
     <MESSAGE value="SketchObject template added; Example (walker) sketch added;" />
-    <option name="LAST_COMMIT_MESSAGE" value="SketchObject template added; Example (walker) sketch added;" />
+    <MESSAGE value="workspace update" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -368,38 +355,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="207">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Menu#0;class#Menu#0" expanded="true" />
-            <element signature="method#show#0;class#Menu#0" expanded="true" />
-            <element signature="method#handleKey#0;class#Menu#0" expanded="true" />
+            <element signature="method#MenuItem#0;class#MenuItem#0" expanded="true" />
+            <element signature="e#384#419#1" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="method#show#0;class#MenuItem#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/MenuWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/example/Walker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="80">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
-            <element signature="method#setup#0;class#MenuWindow#0" expanded="true" />
-            <element signature="method#draw#0;class#MenuWindow#0" expanded="true" />
-            <element signature="method#keyPressed#0;class#MenuWindow#0" expanded="true" />
-            <element signature="method#keyReleased#0;class#MenuWindow#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaseMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="method#main#0;class#BaseMain#0" expanded="true" />
+            <element signature="method#Walker#0;class#Walker#0" expanded="true" />
+            <element signature="method#step#0;class#Walker#0" expanded="true" />
+            <element signature="method#show#0;class#Walker#0" expanded="true" />
+            <element signature="method#reset#0;class#Walker#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -420,29 +398,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/example/Walker.java">
+    <entry file="file://$PROJECT_DIR$/src/BaseMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="138">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="method#Walker#0;class#Walker#0" expanded="true" />
-            <element signature="method#step#0;class#Walker#0" expanded="true" />
-            <element signature="method#show#0;class#Walker#0" expanded="true" />
-            <element signature="method#reset#0;class#Walker#0" expanded="true" />
+            <element signature="method#main#0;class#BaseMain#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/menu/MenuItem.java">
+    <entry file="file://$PROJECT_DIR$/src/menu/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="230">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="method#MenuItem#0;class#MenuItem#0" expanded="true" />
-            <element signature="e#384#419#1" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="method#show#0;class#MenuItem#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#Menu#0;class#Menu#0" expanded="true" />
+            <element signature="method#show#0;class#Menu#0" expanded="true" />
+            <element signature="method#handleKey#0;class#Menu#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/menu/MenuWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="method#setup#0;class#MenuWindow#0" expanded="true" />
+            <element signature="method#keyPressed#0;class#MenuWindow#0" expanded="true" />
+            <element signature="method#keyReleased#0;class#MenuWindow#0" expanded="true" />
           </folding>
         </state>
       </provider>
