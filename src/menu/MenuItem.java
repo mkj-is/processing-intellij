@@ -22,6 +22,7 @@ class MenuItem {
     }
   }
 
+  @SuppressWarnings( "WeakerAccess" )
   Boolean isSelected() {
     return selected;
   }
