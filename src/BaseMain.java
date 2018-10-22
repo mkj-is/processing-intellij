@@ -4,9 +4,7 @@ import processing.core.PApplet;
 public class BaseMain {
 
   private static String[] sketches = {
-          "intro.IntroductionWalker",
-          "terrain.Terrain",
-          "vectors.VectorBase"
+          "example.Example"
   };
 
 
