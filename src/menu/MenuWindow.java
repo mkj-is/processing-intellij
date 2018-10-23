@@ -24,6 +24,7 @@ public class MenuWindow extends PApplet {
 
   public void draw() {
     textAlign( CENTER, CENTER );
+    fill( 255 );
     text( "⇧⇩ or mouse", width / 2f, height / 2f );
     m.get().show();
   }

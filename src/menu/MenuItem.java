@@ -1,5 +1,10 @@
 package menu;
 
+import processing.core.PApplet;
+import processing.core.PConstants;
+
+import static processing.core.PConstants.HSB;
+
 class MenuItem {
   private Menu m;
 
@@ -7,15 +12,10 @@ class MenuItem {
     return index;
   }
 
-  private int index;
-  private int textSize;
-
-  String getName() {
-    return name;
-  }
-
+  private int index, textSize, color;
   private String name;
   private Boolean selected = false;
+
 
   MenuItem( Menu m, int index, String name ) {
     this.m = m;
@@ -24,6 +24,11 @@ class MenuItem {
     if ( index == 0 ) {
       toggleSelected();
     }
+    this.color = randomColor();
+  }
+
+  String getName() {
+    return name;
   }
 
   @SuppressWarnings( "WeakerAccess" )
@@ -39,10 +44,11 @@ class MenuItem {
     this.textSize = textSize;
 
     m.p.noStroke();
-    m.p.fill( isSelected() ? 100 : 0 );
+    m.p.fill( isSelected() ? 50 : 0 );
     m.p.rect( 0, ( index ) * textSize + 5, m.p.width - 5, textSize );
     m.p.textAlign( m.p.LEFT, m.p.BASELINE );
-    m.p.fill( 255 );
+    m.p.colorMode( PConstants.RGB );
+    m.p.fill( isSelected() ? color : 255 );
     m.p.text( name, 20, ( index + 1 ) * textSize );
   }
 
@@ -55,6 +61,13 @@ class MenuItem {
       return true;
     }
     return false;
+  }
 
+  private int randomColor() {
+    float goldernRationConjugate = 0.618033988749895f;
+    float h = ( m.p.random( 1 ) + goldernRationConjugate ) % 1;
+//    m.p.colorMode( HSB, 1, 1, 1 );
+    m.p.colorMode( HSB );
+    return m.p.color( PApplet.map( h, 0, 1, 0, 255 ), 127.5f, 200f );
   }
 }
