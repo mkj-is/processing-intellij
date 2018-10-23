@@ -51,13 +51,22 @@ class Menu {
       items[ current ].toggleSelected();
     }
     if ( key == ENTER ) {
-      PApplet.main( items[ current ].getName() );
+      runSketch( current );
     }
   }
 
   void handleMouse() {
     if ( items[ current ].isUnderMouse() ) {
-      PApplet.main( items[ current ].getName() );
+      runSketch( current );
+    }
+  }
+
+  private void runSketch( int current ) {
+    String name = items[ current ].getName();
+    try {
+      PApplet.main( name );
+    } catch ( Exception e ) {
+      System.out.println( "Sketch " + name + " not found" );
     }
   }
 }

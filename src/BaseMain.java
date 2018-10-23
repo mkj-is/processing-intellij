@@ -5,7 +5,10 @@ public class BaseMain {
 
   private static String[] sketches = {
           "sketch.Sketch",
-          "example.Example"
+          "example.Example",
+          "ayond.Acharya",
+          "fugal.Polyuric",
+          "vigorous.Spermin"
           // Add your sketch's base class path here ("package.Class")
   };
 
