@@ -6,8 +6,15 @@ import static processing.core.PConstants.*;
 
 class Menu {
 
-  private int textSize, current, numOfSketches;
-  private PApplet p;
+  private int textSize;
+
+  int getCurrent() {
+    return current;
+  }
+
+  private int current;
+  private int numOfSketches;
+  PApplet p;
   private MenuItem[] items;
 
   Menu( PApplet p, String[] sketches, int textSize ) {
@@ -16,7 +23,7 @@ class Menu {
     numOfSketches = sketches.length;
     items = new MenuItem[ numOfSketches ];
     for ( int i = 0; i < numOfSketches; i++ ) {
-      items[ i ] = new MenuItem( p, i, sketches[ i ] );
+      items[ i ] = new MenuItem( this, i, sketches[ i ] );
     }
     this.current = 0;
   }
@@ -26,6 +33,7 @@ class Menu {
     for ( MenuItem item :
             items ) {
       item.show( textSize );
+      if ( item.isUnderMouse() ) current = item.getIndex();
     }
   }
 
@@ -41,9 +49,14 @@ class Menu {
           break;
       }
       items[ current ].toggleSelected();
-      this.show();
     }
     if ( key == ENTER ) {
+      PApplet.main( items[ current ].getName() );
+    }
+  }
+
+  void handleMouse() {
+    if ( items[ current ].isUnderMouse() ) {
       PApplet.main( items[ current ].getName() );
     }
   }

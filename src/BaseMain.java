@@ -13,6 +13,8 @@ public class BaseMain {
   public static void main( String args[] ) {
     menu.MenuWindow.setSketches( sketches );
     PApplet.main( "menu.MenuWindow" );
+    // If you want to bypass the menu directly to a specific sketch - comment out the above line, uncomment the following line and replace "package.Class" with sketch path
+//     PApplet.main( "menu.MenuWindow" );
   }
 
 }

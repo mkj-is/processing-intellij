@@ -24,14 +24,14 @@ public class MenuWindow extends PApplet {
 
   public void draw() {
     textAlign( CENTER, CENTER );
-    text( "⇧ Only arrow keys for now ⇩", width / 2f, height / 2f );
+    text( "⇧⇩ or mouse", width / 2f, height / 2f );
+    m.get().show();
   }
 
   @Override
   public void keyPressed() {
     if ( key != ENTER ) { //ignore ENTER on press so as to not create multiple instances when key is held
       m.get().handleKey( key, keyCode );
-      m.get().show();
     }
   }
 
@@ -40,5 +40,10 @@ public class MenuWindow extends PApplet {
     if ( key == ENTER ) {
       m.get().handleKey( key, keyCode );
     }
+  }
+
+  //  @Override
+  public void mouseReleased() {
+    m.get().handleMouse();
   }
 }
