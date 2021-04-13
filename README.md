@@ -8,7 +8,7 @@ The project can be used in two steps:
 2. Add the same configuration you see on the screenshot
 3. Duplicate the example applet and create as many Processing sketches as you want!
 
-![Configuration screenshot](http://cl.ly/image/1b2Q1J2Z1Q1y/processing-intellij.png)
+![Configuration screenshot](https://user-images.githubusercontent.com/708312/114612303-461ef100-9ca2-11eb-85dc-37f423686dfe.png)
 
 # About
 
